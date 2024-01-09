@@ -1,0 +1,262 @@
+.app-container{
+    display: flex;
+    height: 100%;
+}
+
+.dash-board-container{
+    padding-left: 85px;
+    border-left: 1px solid grey;
+    margin-left: 55px;
+}
+.profile-row{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.home-prof-icon{
+    font-size: 35px;
+    margin: 8px;
+}
+.profile-name-container{
+    margin-left: 8px;
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.date-line{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(108, 133, 170);
+    margin-right: 10px;
+}
+.cal-drop-container{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.cal-button{
+    border: 1px solid #000000;
+    height: 30px;
+    width: 80px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 8px;
+}
+.cal-icon{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.cal-name{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+}
+.bet-matter{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    padding: 15px;
+}
+.drop-down{
+    border: 1px solid #000000;
+    border-radius: 15px;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px;
+}
+.options{
+    font-weight: 600;
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.details-container{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.details{
+    margin: 8px;
+    padding-left: 15px;
+}
+.detail-head{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(124, 113, 113);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reven-percent{
+    background-color: rgb(179, 229, 179);
+    border-radius: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #008000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+}
+.dec-percent{
+    background-color: rgb(247, 147, 147);
+    border-radius: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+}
+.amount-figure{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ex-details{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(124, 113, 113);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.extra{
+    border-left: 1px solid grey;
+}
+.bottom-container{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+}
+.tabs-container{
+    padding: 15px;
+    margin: 15px;
+}
+.tabs-list{
+    display: flex;
+    align-items: center;
+}
+.tab-name{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.tab-btn-home{
+    border: 1px solid rgb(97, 94, 94);
+    border-radius: 12px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 35px;
+    width: 90px;
+}
+.bottom-drop-down{
+    border: 1px solid rgb(97, 94, 94);
+    border-radius: 12px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    height: 35px;
+    width: 90px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+.tab-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(187, 224, 224);
+    border-radius: 15px;
+    margin-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cart-icon{
+    font-size: 25px;
+    margin-right: 15px;
+}
+.item-info-heading{
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.forward-arrow{
+    font-size: 18px;
+    margin-left: 12px;
+    margin-top: 35px;
+}
+.item-info-para{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item-price{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item-des{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.level-head{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.arrow{
+    margin-left: 20px;
+}
+.level-para{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(129, 117, 117);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.level-price{
+    font-weight: 600;
+    font-size: 18px;
+    color:#000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
